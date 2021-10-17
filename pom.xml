@@ -8,10 +8,9 @@
 	<version>1.0</version>
 
 	<name>PiAnglesMvn Test</name>
-	<description>
-	Piangles project to test Maven central repo deployment.
-	</description>
+	<description>Piangles project to test Maven central repo deployment.</description>
 	<url>https://www.piangles.org/</url>
+	
 	<licenses>
 		<license>
 			<name>Apache License</name>
@@ -49,12 +48,9 @@
 	<!-- Versions of all internal and external RELEASE JARS -->
 	<properties>
 		<org.springframework.build.aws-maven-version>5.0.0.RELEASE</org.springframework.build.aws-maven-version>
-
 		<maven-compiler-plugin-version>3.3</maven-compiler-plugin-version>
 		<maven-dependency-plugin>2.10</maven-dependency-plugin>
-
 		<nexus-staging-maven-plugin-version>1.6.7</nexus-staging-maven-plugin-version>
-
 		<java-source-version>1.8</java-source-version>
 		<java-target-version>1.8</java-target-version>
 	</properties>
